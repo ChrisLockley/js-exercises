@@ -1,11 +1,14 @@
 //1
 const isGreater = (num1, num2) => {
-  //write a condition that checks if num1 is greater than num 2 and if it is return true else return false
+  //write a condition that checks if num1 is greater than num 2 and 
+  //if it is return true else return false
 }
 
 //2
 const isTeenager = (age) => {
-  //write a condition that checks if age is greater or equal to 13 and less than or equal to 19 if it is then return true, else return false
+  //write a condition that checks if age is greater or equal to 13 
+  //and less than or equal to 19 if it is then return true, else 
+  //return false
 }
 
 //3
@@ -34,5 +37,5 @@ const favoriteSeason = (season) => {
 
 //uncomment the line below once you have written your function
 //console.log(determineGrade(70) //should output C
-}
+
   
