@@ -117,4 +117,54 @@ console.log(checkWeather("sunny", "cold"))
 console.log(checkWeather("cloudy", "warm"))
 console.log(checkWeather("cloudy", "cold"))
 
-// 
+// OR
+
+const tripPlanner = (airplanePrice, covidVaxStatus) => {
+  if (airplanePrice < 100 || covidVaxStatus === "vaccinated") {
+    return "go see the fam"
+  }
+  else if (airplanePrice >= 100 || covidVaxStatus === "vaccinated") {
+    return "stay home"
+  }
+  else {
+    return "wait and see"
+  }
+}
+console.log(tripPlanner(70, "vaccinated"))
+console.log(tripPlanner(100, "unvaccinated"))
+console.log(tripPlanner(3000, "has covid"))
+
+// ???
+
+let bird = "hawk";
+if(bird != "hawk"){
+  console.log("does not equal");
+}
+
+// arrays
+
+let games = ["halo", "zelda", "skyrim", "cod"];
+console.log(games[1]);
+
+let index = 2;
+console.log(games[index]);
+
+games[0] = "mario kart";
+console.log(games);
+
+console.log(games. length);
+
+games.push("halo");
+console.log(games);
+
+games.pop();
+console.log(games);
+
+// create an array
+
+let drugs = ["weed", "nic", "lean", "liq", "zans"]
+console.log(drugs[2]);
+console.log(games. length);
+
+drugs.push("oxi")
+console.log(drugs)
