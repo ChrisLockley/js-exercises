@@ -136,10 +136,11 @@ console.log(tripPlanner(3000, "has covid"))
 
 // ???
 
-let bird = "hawk";
+let bird = "eagle";
 if(bird != "hawk"){
   console.log("does not equal");
 }
+console.log(bird)
 
 // arrays
 
