@@ -141,31 +141,3 @@ if(bird != "hawk"){
   console.log("does not equal");
 }
 console.log(bird)
-
-// arrays
-
-let games = ["halo", "zelda", "skyrim", "cod"];
-console.log(games[1]);
-
-let index = 2;
-console.log(games[index]);
-
-games[0] = "mario kart";
-console.log(games);
-
-console.log(games. length);
-
-games.push("halo");
-console.log(games);
-
-games.pop();
-console.log(games);
-
-// create an array
-
-let drugs = ["weed", "nic", "lean", "liq", "zans"]
-console.log(drugs[2]);
-console.log(games. length);
-
-drugs.push("oxi")
-console.log(drugs)
