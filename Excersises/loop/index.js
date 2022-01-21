@@ -18,7 +18,7 @@ for (let i = 0; i < foods.length; i +=1) {
     console.log(food);
 }
 
-/* for ((let i = 0; i < foods.length; i +=1)) {
+/*for ((let i = 0; i < foods.length; i +=1)) {
     let food = foods[i];
     if (!food.includes("b")) {
         foods.splice(i, 1);
@@ -26,6 +26,8 @@ for (let i = 0; i < foods.length; i +=1) {
     }
     console.log(food);
 }*/
+
+// iterable object
 
 const iterableObject = [
     [1, 2, 3],
@@ -44,6 +46,8 @@ for (let i = 0; i < iterableObject.length; i += 1) {
 }
 console.log("end of outer loop")
 
+// factorials
+
 /*const factorial = (n) => {
     let product = 1;
     for (let i =1; i <= n; i += 1) {
@@ -51,9 +55,10 @@ console.log("end of outer loop")
     }
     return product;
 }
+
 console.log(factorial(5))*/
 
-/*const factorial = (n) => {
+const factorial = (n) => {
     let product = 1;
     while (n > 0) {
         product *= n;
@@ -61,9 +66,9 @@ console.log(factorial(5))*/
     }
     return product;
 }
-console.log(factorial(5))*/
+console.log(factorial(5))
 
-/*const countBySevens = (n) => {
+const countBySevens = (n) => {
     let product = [];
     for (let i = 0; i <= n; i += 7) {
         if (i !== 0) {
@@ -72,7 +77,7 @@ console.log(factorial(5))*/
     }
     return product;
 }
-console.log(countBySevens(21)) */
+console.log(countBySevens(21))
 
 /*input: no input
 output: array in integers
@@ -93,10 +98,5 @@ const powersOfTwo = () => {
 console.log(powersOfTwo());
 
 
-
-let betterSum = (left, right) => {
-    
-}
-betterSum(4, 7)
-
-// sum of 4 + 5 + 6 + 7
+/*
+*/
